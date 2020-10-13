@@ -166,6 +166,13 @@ input[type=submit]:active {
   top: 0;
 }
 
+.logo {
+  height: 175px;
+  width: auto;
+  float: left;
+  margin-top: 40px;
+}
+
 .main-nav li {
   display: inline-block; /*side by side */
   margin-left: 40px;
