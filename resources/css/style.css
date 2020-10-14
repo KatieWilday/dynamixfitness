@@ -8,7 +8,7 @@
 
 html,
 body {
-  color: blue;
+  color: #0f75bd;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -56,6 +56,11 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.dynamix {
+  color: #fff;
+  font-size: 450%; /* % of html font-size */
+  margin-bottom: -20px;
+}
 
 h1, h2, h3 {
   font-weight: 300;
@@ -66,7 +71,7 @@ h1 {
   margin-top: 0px;
   margin-bottom: 20px;
   color: #fff;
-  font-size: 240%; /* % of html font-size */
+  font-size: 220%; /* % of html font-size */
   word-spacing: 3px;
   letter-spacing: 1px;
 }
@@ -266,12 +271,15 @@ input[type=submit]:active {
   text-align: center;
 }
 
-.katie-photo {
-  opacity: 1;
-  width: 60%; /*#323232*/
-  border: solid 2px #323232;
-  margin-left: 60px;
-  margin-top: 40px;
+.section-about h2 {
+  color: grey;
+}
+
+.aboutblog {
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 40px;
 }
 
 .section-about img {
@@ -431,9 +439,13 @@ img {
   opacity: 1;
 }
 
-/* --------- BLOG SECTION --------- */
+/* --------- PERSONAL TRAINING SECTION --------- */
 
-.section-blog {
+.section-training h2 {
+  color: grey;
+}
+
+.section-training {
   background-color: #EFEFEF; /* light grey */
 }
 
